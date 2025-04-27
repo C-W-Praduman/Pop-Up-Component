@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inika:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #DECDAC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inika", serif;
+
+}
+.box{
+    height: 346px;
+    width: 690px;
+    background-color: #fff;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+    background-color: #EBBF53;
+    padding: 12px 45px ;
+    border-radius: 28px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.popup{
+    position: fixed;
+    height: 346px;
+    width: 690px;
+    background-color: #fff;
+    border-radius: 41px;
+    padding: 18px 64px;
+    inset: 0;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+   display: none;
+}
+.open{
+    display: block;
+}
+.close-icon{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: right;
+}
+#close-btn{
+    cursor: pointer;
+
+}
+.message{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 6rem;
+}
+.message h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.message p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.message img{
+    position: absolute;
+    left: 50px;
+    top: -25px;
+}
+
+.inputarea{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input{
+    width: 60%;
+   background-color: #EEE8DD;
+   border: 1px solid #AFA187;
+   font-size: 18px;
+   font-family: "Heebo", sans-serif;
+   font-weight: 400;
+   padding: 15px 28px;
+   border-radius: 28px;
+   border-right: none;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+}
+
+.inputarea button{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Heebo", sans-serif;
+    background-color: #EBBF53;
+    padding: 15px 33px 15px 52px;
+    border-radius: 28px;
+    border: 1px solid #AFA187;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+    margin-right: 20px;
+    border-left: none;
+    cursor: pointer;
+
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
